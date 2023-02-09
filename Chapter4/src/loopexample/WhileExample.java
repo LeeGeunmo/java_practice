@@ -6,10 +6,10 @@ public class WhileExample {
 		int num = 1;
 		int sum = 0;
 		
-		while( num <= 10) {
+		do {
 			sum += num;
 			num++;
-		}
+		}while(num <= 10);  
 		System.out.println("1부터 10까지의 합은  " + sum + "입니다.");
 		
  	}
